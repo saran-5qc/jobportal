@@ -36,7 +36,7 @@ HomePage
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <label for="" class="mb-2">Candidate Name<span class="req">*</span></label>
-                                <input type="text" value="{{ $userregistration->first_name }}" id="name" name="name" class="form-control">
+                                <input type="text" value="{{ $userregistration->first_name }}" id="name" name="name" class="form-control" >
                             </div>
                              
                             <div class="col-md-6 mb-4">
@@ -58,21 +58,21 @@ HomePage
                         </div>
                             <div class="mb-4">
                             <label for="" class="mb-2">Object Summary</label>
-                            <textarea class="form-control" name="summary" id="summary" cols="5" rows="5" ></textarea>
+                            <textarea class="form-control" name="summary" id="summary" cols="5" rows="5" required></textarea>
                         </div>
                         <div class="row">
                               <div class="mb-4 col-md-6">
                                 <label for="" class="mb-2">Qualification<span class="req">*</span></label>
-                                <input type="text"  id="qualifications" name="qualifications" class="form-control">
+                                <input type="text"  id="qualifications" name="qualifications" class="form-control" required>
                             </div>
                               <div class="mb-4">
                             <label for="" class="mb-2">Skills<span class="req">*</span></label>
-                            <textarea class="form-control" name="skills" id="skills" cols="5" rows="5"></textarea>
+                            <textarea class="form-control" name="skills" id="skills" cols="5" rows="5" required></textarea>
                         </div>
                         </div>
                           <div class="mb-4 col-md-6">
                                 <label for="" class="mb-2">Projects You have done</label>
-                             <input type="text"  id="projects" name="projects" class="form-control">
+                             <input type="text"  id="projects" name="projects" class="form-control" required>
 
                             </div>
                             
@@ -83,15 +83,15 @@ HomePage
                         <div class="row">
                             <div class="mb-4 col-md-6">
                                 <label for="" class="mb-2">Fathers's name</label>
-                                <input type="text"  id="address" name="fathername" class="form-control">
+                                <input type="text"  id="address" name="fathername" class="form-control" required>
                             </div>
                             <div class="mb-4 col-md-6">
                                 <label for="" class="mb-2">Passport number</label>
-                                <input type="text"  id="address" name="passport" class="form-control">
+                                <input type="text"  id="address" name="passport" class="form-control" required>
                             </div>
                               <div class="col-md-6  mb-4">
                                 <label for="" class="mb-2">Date of Birth<span class="req">*</span></label>
-                                <input type="date" min="1" value="{{ $userregistration->date_of_birth }}" id="date" name="date" class="form-control">
+                                <input type="date" min="1" value="{{ $userregistration->date_of_birth }}" id="date" name="date" class="form-control" required>
                             </div>
                           
                         </div>
@@ -99,15 +99,15 @@ HomePage
                         
                         <div class="mb-4">
                             <label for="" class="mb-2">Language Known</label>
-                            <textarea class="form-control" name="language" id="language" cols="5" rows="5" ></textarea>
+                            <textarea class="form-control" name="language" id="language" cols="5" rows="5" required></textarea>
                         </div>
                         <div class="mb-4">
                             <label for="" class="mb-2">Hobbies</label>
-                            <textarea class="form-control" name="hobbies" id="hobbies" cols="5" rows="5" ></textarea>
+                            <textarea class="form-control" name="hobbies" id="hobbies" cols="5" rows="5" required></textarea>
                         </div>
                          <div class="mb-4">
                             <label for="" class="mb-2">Home address</label>
-                            <textarea class="form-control" name="address" id="address" cols="5" rows="5" ></textarea>
+                            <textarea class="form-control" name="address" id="address" cols="5" rows="5" required></textarea>
                         </div>
                         <div class="mb-4">
                             <label for="" class="mb-2">image</label>
